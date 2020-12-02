@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onTick(long l) {
                     updateTimer((int) l / 1000);
-                }
+                }//converts ms to seconds
 
                 @Override
                 public void onFinish() {
